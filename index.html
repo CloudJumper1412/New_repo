@@ -2,58 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <style>
-        p{
-            margin: 0;
-            padding:0;
-             font-size:20px;
-                line-height: 24px;
+    <script>
+        function Add(){
+            var a, b, c;
+            a = Number(document.getElementById("value1").value);
+            b = Number(document.getElementById("value2").value);
+            c = a + b;
+            document.getElementById("answer").value = c;
         }
-
-        body{
-            background-color: forestgreen;
+        function Minus(){
+            var a, b, c;
+            a = Number(document.getElementById("value1").value);
+            b = Number(document.getElementById("value2").value);
+            c = a - b;
+            document.getElementById("answer").value = c;
         }
-
-        div {
-            margin:0;
-            padding:0;
+        function Multiply(){
+            var a, b, c;
+            a = Number(document.getElementById("value1").value);
+            b = Number(document.getElementById("value2").value);
+            c = a * b;
+            document.getElementById("answer").value = c;
         }
-    </style> 
-    <h1 align="center">Trees</h1>
-    <h3 align="center">by: (Jae) John Cahilig</h3>
+        function Divide(){
+            var a, b, c;
+            a = Number(document.getElementById("value1").value);
+            b = Number(document.getElementById("value2").value);
+            c = a / b;
+            document.getElementById("answer").value = c;
+        }
+    </script>
+    <h1 align="center">Calculator</h1>
+    <input id="value1">
+    <input id="value2">
+    <button onclick="Add()">ADD</button>
+    <br>
+    <input id="value1">
+    <input id="value2">
+    <button onclick="Minus()">MINUS</button>
+    <br>
+    <input id="value1">
+    <input id="value2">
+    <button onclick="Multiply()">MULTIPLY</button>
+    <br>
+    <input id="value1">
+    <input id="value2">
+    <button onclick="Divide()">DIVIDE</button>
+    <br>
+    <input id="answer">
     
-    <center>
-        <div>
-    <p>I</p>
-    <P>think</P>
-    <p>That &nbsp; I</p>
-    <p>Shall never</p>
-    <p>see,&nbsp; A &nbsp; poem</p>
-    <p>lovely as &nbsp; a &nbsp; tree</p>
-    <p>A tree whose hungry</p>
-    <p>mouth is a priesr, Against</p>
-    <p>the &nbsp; earth's &nbsp; sweet &nbsp; flowing</p>
-    <p>breast. &nbsp;   &nbsp;&nbsp; A &nbsp; tree that looks at</p>
-    <p>God all day, And &nbsp; lifts her leafy</p>
-    <p>arms to prayt, &nbsp; A &nbsp; tree that may in</p>
-    <p>Summer wear &nbsp; ,A nest of robins in</p>
-    <p>her &nbsp; hait, Upon &nbsp; whose &nbsp; bosom snow</p>
-    <p>has lain, Whose intimately lives with rain</p>
-    <p>&nbsp;&nbsp;Poems are made</p>
-    <p>&nbsp;&nbsp;by fools like me,</p>
-    <p>&nbsp;&nbsp;But only God can</p>
-    <p>&nbsp;&nbsp; make &nbsp; a &nbsp; tree</p>
-            </div>
-        <p><a href="calculator.html>Calculator</a></p>
-    </center>
 </body>
-
 </html>
-
-
-
-
